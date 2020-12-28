@@ -1,0 +1,5 @@
+Data activeTab = 2
+
+Method changeTab (tab) { 
+	this.activeTab = tab
+}

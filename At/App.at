@@ -1,0 +1,183 @@
+
+Rectangle{
+  id: "rec0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  color: "#2f2f2f",
+  child: [
+    Rectangle{
+      id: "rectanglerec01",
+      width: 100,
+      height: 74,
+      x: 0,
+      y: 595,
+      bottom: 0,
+      left: 0,
+      right: 0,
+      color: "#282828"
+    },
+    Item{
+      id: "itemrec03",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 74,
+      child: [
+        Rectangle{
+          id: "leftPanel",
+          width: "<#leftWidth#>",
+          height: 100,
+          x: 0,
+          y: 0,
+          top: 0,
+          bottom: 0,
+          color: "#000000",
+          child: [
+            Rectangle{
+              id: "rectangleleftPanel1",
+              width: 1,
+              height: 100,
+              x: 0,
+              y: 0,
+              top: 0,
+              bottom: 0,
+              right: 0,
+              opacity: 0.3,
+              child: [
+                MouseArea{
+                  id: "mousearearectangleleftPanel11",
+                  width: 100,
+                  height: 100,
+                  x: 0,
+                  y: 0,
+                  right: 0,
+                  left: 0,
+                  top: 0,
+                  bottom: 0,
+                  opacity: 1,
+                  cursor: "e-resize",
+                  event: [
+                    MouseEvent{
+                      section: "mouse",
+                      name: "mousedown",
+                      action: "<#leftResizeStart#>"
+                    },
+                    MouseEvent{
+                      section: "mouse",
+                      name: "mouseup",
+                      action: "<#leftResizeEnd#>"
+                    },
+                    MouseEvent{
+                      section: "mouse",
+                      name: "mousemove",
+                      action: "<#resizeLeftPanel#>"
+                    }
+                  ]
+                }
+              ]
+            },
+            Object{
+              id: "leftpanelleftPanel3",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              name: "LeftPanel",
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0
+            }
+          ]
+        },
+        Rectangle{
+          id: "mainPanel",
+          width: 239,
+          height: 100,
+          x: 300,
+          y: 0,
+          top: 0,
+          bottom: 0,
+          right: {
+            default: "<#rigthWidth#>",
+            sm: "<#0#>",
+            xs: "<#0#>"
+          },
+          left: "<#leftWidth#>",
+          color: "#343434",
+          child: [
+            Object{
+              id: "mainpanelmainPanel1",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              name: "MainPanel",
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0
+            }
+          ]
+        },
+        Rectangle{
+          id: "rigthPanel",
+          width: {
+            default: "<#rigthWidth#>",
+            sm: "<#0#>",
+            xs: "<#0#>"
+          },
+          height: 100,
+          x: 0,
+          y: 0,
+          top: 0,
+          bottom: 0,
+          right: 0,
+          color: "#000",
+          child: [
+            Image{
+              id: "imagerigthPanel1",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              source: "Resources/degrede_desifn.png",
+              fillMode: "preserveAspectCrop"
+            },
+            Object{
+              id: "rightpanelrigthPanel3",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              name: "RightPanel",
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0
+            }
+          ],
+          modelShow: {
+            default: "<#true#>",
+            sm: "<#false#>",
+            xs: "<#false#>"
+          }
+        }
+      ]
+    }
+  ]
+},

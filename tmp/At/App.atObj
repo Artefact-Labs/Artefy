@@ -1,0 +1,16 @@
+Data leftWidth = 200
+Data rigthWidth = 500
+Data leftResizeStarted = false
+	
+	
+Method leftResizeStart () { 
+this.leftResizeStarted = true;
+}
+Method leftResizeEnd () { 
+this.leftResizeStarted = false;
+}
+Method resizeLeftPanel (e) { 
+	if(this.leftResizeStarted){
+		//this.leftWidth = e.pageX;
+	}
+}

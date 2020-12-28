@@ -1,0 +1,9 @@
+.tab-hover{
+	&:hover{
+		color: #fff;
+		#text, #icon{
+		color: #fff !important;
+	}
+	
+	}
+}

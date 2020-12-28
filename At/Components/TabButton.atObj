@@ -1,0 +1,10 @@
+Property value = "Start"
+Property icon = "ion-md-home"
+Property active = true
+Property rang = 0
+	
+Property Function click = ()=>{}
+	
+Computed color () { 
+	return (this.active? '#fff' : 'gray')
+}

@@ -1,0 +1,157 @@
+
+Rectangle{
+  id: "rectangle0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  color: "#1d1d1d",
+  child: [
+    Row{
+      id: "rowrectangle01",
+      width: "auto",
+      height: 30,
+      x: 0,
+      child: [
+        Button{
+          id: "buttonrowrectangle011",
+          width: 40,
+          height: 30,
+          x: 0,
+          onlyIcon: true,
+          fab: true,
+          flat: true,
+          icon: "ion-ios-arrow-back",
+          color: "#fff",
+          fontSize: 24,
+          verticalCenter: 0
+        },
+        Button{
+          id: "buttonrowrectangle0112",
+          width: 40,
+          height: 30,
+          x: 0,
+          onlyIcon: true,
+          fab: true,
+          flat: true,
+          icon: "ion-ios-arrow-forward",
+          color: "#fff",
+          fontSize: 24,
+          verticalCenter: 0
+        },
+        Rectangle{
+          id: "rectanglerowrectangle015",
+          width: 180,
+          height: 26,
+          x: 0,
+          radius: 13,
+          verticalCenter: 0,
+          child: [
+            Icon{
+              id: "iconrectanglerowrectangle0151",
+              width: 26,
+              height: 26,
+              x: 5,
+              verticalCenter: 0,
+              color: "#262626",
+              iconName: "ion-ios-search",
+              size: 20
+            },
+            TextEdit{
+              id: "texteditrectanglerowrectangle0153",
+              height: 22,
+              verticalCenter: 0,
+              right: 10,
+              left: 30,
+              horizontalAlign: "flex-start",
+              value: "Search"
+            }
+          ]
+        }
+      ],
+      verticalCenter: 0
+    },
+    Row{
+      id: "rowrectangle03",
+      width: "auto",
+      height: 100,
+      right: 0,
+      top: 0,
+      bottom: 0,
+      child: [
+        Button{
+          id: "buttoncolumn031",
+          width: 130,
+          height: 25,
+          rounded: true,
+          color: "#353535",
+          backgroundColor: "#222222",
+          dark: true,
+          value: "UPGRADE",
+          elevation: 0,
+          x: 0,
+          verticalCenter: 0
+        },
+        Row{
+          id: "rowrowrectangle033",
+          width: "auto",
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          child: [
+            Icon{
+              id: "iconrowrowrectangle0331",
+              width: 30,
+              height: 30,
+              x: 0,
+              verticalCenter: 0,
+              iconName: "ion-ios-contact",
+              size: 25,
+              color: "#fff"
+            },
+            Item{
+              id: "itemrowrowrectangle0333",
+              width: 100,
+              height: "auto",
+              x: 0,
+              verticalCenter: 0,
+              child: [
+                Text{
+                  id: "textitemrowrowrectangle03331",
+                  width: 0,
+                  height: "auto",
+                  value: "DannickStark",
+                  color: "#fff",
+                  verticalCenter: 0,
+                  left: 0,
+                  right: 0,
+                  textO: true,
+                  textOverflow: "ellipsis",
+                  bold: true
+                }
+              ]
+            }
+          ]
+        },
+        Button{
+          id: "buttonrowrectangle01123",
+          width: 40,
+          height: 30,
+          x: 0,
+          onlyIcon: true,
+          fab: true,
+          flat: true,
+          icon: "ion-ios-arrow-down",
+          color: "#fff",
+          fontSize: 24,
+          verticalCenter: 0
+        }
+      ]
+    }
+  ]
+},
