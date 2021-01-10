@@ -18,10 +18,10 @@
     <img src="git_images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">KosmosOS</h3>
+  <h3 align="center">Artefefy</h3>
 
   <p align="center">
-    An operating system working thanks to web technologies. (clone of Windows 10).
+    It is a replica of Spotify.
     <br />
     <a href="https://doc.artefact-labs.com" target="_blank"><strong>Explore the Artefact's docs »</strong></a>
     <br />
