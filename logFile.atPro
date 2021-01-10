@@ -27,6 +27,24 @@
      ]
     },
     {
+     "type": "folder",
+     "name": "MainPanel",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "file",
+       "name": "BottomBar.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "TopBar.at",
+       "iconA": "at"
+      }
+     ]
+    },
+    {
      "type": "file",
      "name": "App.at",
      "iconA": "at"
@@ -43,31 +61,13 @@
     },
     {
      "type": "file",
-     "name": "RightPanel.at",
-     "iconA": "at"
-    },
-    {
-     "type": "file",
      "name": "MainPanel.at",
      "iconA": "at"
     },
     {
-     "type": "folder",
-     "name": "MainPanel",
-     "iconA": "folderC",
-     "col": "pink",
-     "child": [
-      {
-       "type": "file",
-       "name": "TopBar.at",
-       "iconA": "at"
-      },
-      {
-       "type": "file",
-       "name": "BottomBar.at",
-       "iconA": "at"
-      }
-     ]
+     "type": "file",
+     "name": "RightPanel.at",
+     "iconA": "at"
     }
    ]
   },
